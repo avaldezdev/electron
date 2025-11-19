@@ -1,0 +1,65 @@
+# -------------------------
+# Node / NPM
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de bloqueo (si quieres evitar conflictos)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------
+# Electron
+# -------------------------
+# Build / distribución
+/dist/
+/out/
+/release/
+/build/
+/Makefile
+*.asar
+
+# Archivos temporales de Electron Forge / Builder / Packager
+/.webpack/
+/.cache/
+/electron-builder.yml
+electron-builder-debug.yml
+
+# -------------------------
+# Sistema operativo
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.cache/
+
+# -------------------------
+# IDEs / Editores
+# -------------------------
+# VSCode
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Otros
+*.log
+logs/
+*.tmp
+temp/
+tmp/

@@ -1,0 +1,23 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+        "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaldezdev/electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avaldezdev/electron/issues"
+  },
+  "homepage": "https://github.com/avaldezdev/electron#readme",
+  "devDependencies": {
+    "electron": "^39.2.2"
+  }
+}
